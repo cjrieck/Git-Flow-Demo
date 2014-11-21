@@ -16,10 +16,10 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.whiteColor()
         
         var textLabel = UILabel(frame: CGRectMake(0, 0, self.view.frame.size.width, 50))
-        textLabel.center = self.view.center
+        textLabel.text = "GitHub Flow Demo!"
+        textLabel.center = CGPointMake(0, 0)
         textLabel.textAlignment = .Center
         textLabel.font = UIFont.systemFontOfSize(30.0)
-        textLabel.text = "GitHub Flow Demo!"
         self.view.addSubview(textLabel)
     }
 
